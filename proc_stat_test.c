@@ -74,6 +74,10 @@ int main ( int argc, char ** argv )
   printf("state: %ld\n", ps.state );
   printf("time_slice: %d\n", ps.time_slice );
   printf("policy: %d\n", ps.policy );
+  printf("priority: %ld\n", ps.priority );
+  printf("static priority: %ld\n", ps.static_priority );
+  printf("normal priority: %ld\n", ps.normal_priority );
+  printf("rt priority: %ld\n", ps.rt_priority );
   printf("num_context_switches: %ld\n", ps.num_context_switches );
   printf("name: %s\n", ps.name );
 
