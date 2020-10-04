@@ -30,6 +30,6 @@
 
 int main ( int argc, char ** argv )
 {
-  syscall(357);
+  syscall(548);
   return 0;
 }
