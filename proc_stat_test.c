@@ -27,7 +27,6 @@
 #include <string.h>
 #include <linux/procstat.h>
 #include <stdlib.h>
-#include <limits.h>
 
 int main ( int argc, char ** argv )
 {
