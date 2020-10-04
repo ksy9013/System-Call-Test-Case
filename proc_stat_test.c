@@ -59,7 +59,7 @@ int main ( int argc, char ** argv )
     exit(-1);
   }
 
-  syscall(357);
+  syscall(549);
 
   struct proc_stat ps;
   memset( &ps, 0, sizeof( struct proc_stat ) ); 
