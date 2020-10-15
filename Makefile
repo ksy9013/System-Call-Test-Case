@@ -1,5 +1,5 @@
 CC=gcc
-INC_DIR = "../kernel-code/linux-5.8/include/"
+INC_DIR = "/home/devuser/code/kernel-code/linux-5.8/include/"
 CFLAGS= -Wall -c -g -I$(INC_DIR)
 
 
