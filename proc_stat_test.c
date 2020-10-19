@@ -64,11 +64,13 @@ int main ( int argc, char ** argv )
 
   syscall(549, pid, &ps);
 
+  // \TODO Fix the other 64-bit numbers
+  
   printf("Process State: \n" );
   printf("PID : %d\n", ps.pid );
   printf("PPID: %d\n", ps.parent_pid );
-  printf("user_time: %ld\n", ps.user_time );
-  printf("sys_time: %ld\n", ps.sys_time );
+  printf("user_time: %lld\n", ps.user_time );
+  printf("sys_time: %lld\n", ps.sys_time );
   printf("state: %ld\n", ps.state );
   printf("time_slice: %d\n", ps.time_slice );
   printf("policy: %d\n", ps.policy );
